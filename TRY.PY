@@ -6,7 +6,7 @@ import google.generativeai as genai
 load_dotenv()
 
 # Access the GEMINI_API_KEY
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("API _KEY")
 
 # Raise an error if the API key is not found
 if not api_key:
